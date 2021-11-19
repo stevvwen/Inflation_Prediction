@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Inflation Prediction</title>
+        <link rel="shortcut icon" type="image/png" href="images/icon.png" >
+        <style>
+            .logo{
+                z-index: -1;
+            }
+            .head1{
+                z-index: 1;
+            }
+            .logo1{
+                z-index: 1;
+            }
+        </style>
+    </head>
+
+    <body>
+    <h1 style="text-align: center;background-color: red; color: white; font-size: 50px; top: 10px" class="head1">Inflation Prediction</h1>
+    <h2 style="text-align: center; font-size: x-large; color: red">Fall 2021 MAIS Project</h2>
+    <img src="images/mcgill_logo2.jpg" class="logo" style="position:absolute; top: 60px; right: 80px; max-width: 20%; height: auto; "/>
+    <img src="images/mcgill_logo.png.png" class="logo1" style="position:absolute; bottom: 10px; left: 10px; max-width: 3%; height: auto; ">
+
+    <form>
+        <label for="fname" style="position: absolute; left: 450px; top: 210px;">Months to look forward:</label><br>
+        <input type="number" id="fname" name="fname" style="position: absolute; left: 450px; top: 230px;"> <br>
+        <input type="radio" id="model1" name="model_to_choose" value="time_invariant" style="position: absolute; left: 650px; top: 200px;">
+        <label for="time_invariant" style="position: absolute; left: 675px; top: 200px;">Time Invariant Forecast</label><br>
+
+        <input type="radio" id="model2" name="model_to_choose" value="time_variant" style="position: absolute; left: 650px; top: 220px;">
+        <label for="time_variant" style="position: absolute; left: 675px; top: 220px;">Time Variant Forecast</label><br>
+
+        <input type="radio" id="model3" name="model_to_choose" value="multivariate" style="position: absolute; left: 650px; top: 240px;">
+        <label for="multivariate" style="position: absolute; left: 675px; top: 240px;">Multivariable Forecast</label>
+    </form>
+
+
+
+
+    </body>
+</html>
