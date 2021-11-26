@@ -17,7 +17,7 @@ def Hello(month= 0, model= 1):
     else:
         data= request.form
         if data['month'] != '':
-            month= int(data['month']) #TODO: How to handle situations when users do not input or typed something else
+            month= int(data['month']) 
         if data['model'] != '':
             model= int(data['model'])
         if month> 12:
