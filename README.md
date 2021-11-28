@@ -1,4 +1,3 @@
-# MatthieuXSteve_MAIS_Project
-# MAIS 2021 Fall Deliverable
-Matthieu Fishser 
-Steve Wen
+This is a simple Inflation Prediction. 
+To Deploy more, Please visit:
+   https://inflationpred1.herokuapp.com/
